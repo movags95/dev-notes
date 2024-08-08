@@ -4,7 +4,7 @@
 
 ### [Introduction to Data Analysis](https://www.freecodecamp.org/learn/data-analysis-with-python/data-analysis-with-python-course/introduction-to-data-analysis)
 
-###### What is data analysis
+###### What is data analysis?
 A process of inspecting, cleansing, transforming and modelling data with the goal of discovering useful information, informing conclusions and supporting decision making.
 
 ###### Data Analysis tools
@@ -22,10 +22,10 @@ Why am I going to use python to learn data analysis?
  - Free
  - Huge support community and libraries
 
-###### Data Process
+###### Data Analysis Process
 ![alt](img/sc-fcc-datapipeline.png)
 
-###### Python libraries we will encounter
+###### Python libraries
 - **pandas:** The cornerstone of DA
 - **matplotlib:** A library for *visulisations*
 - **numpy:** *numeric* library that will perform calculations
