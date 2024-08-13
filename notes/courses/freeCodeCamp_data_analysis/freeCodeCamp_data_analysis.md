@@ -54,3 +54,30 @@ This video first looks to show the speed of processing from Excel vs Python.
 The then goes on to do some some validation by creating a new calculated column and comparing it with an existing column from the dataset. 
 
 The course then demonstrates some quick filtering of the data.
+
+### [How to use Jupyter Notebooks Intro](https://www.freecodecamp.org/learn/data-analysis-with-python/data-analysis-with-python-course/how-to-use-jupyter-notebooks-intro)
+
+**Why do we use a Jupyter Notebook?**
+- It is a highly interactive place to code.
+- We can output data at any point of the code.
+- We can create a command and immediately get a response. 
+- A cell can use code or markdown. Making it highly workable
+- Keyboard shortcuts
+- Interactive data visualization
+- Working with other filetypes like Excel
+
+### [Introduction to Numpy](https://www.freecodecamp.org/learn/data-analysis-with-python/data-analysis-with-python-course/numpy-introduction-a)
+
+Processing numbers in python is quite slow. Numpy solves that. It sits on top of python to perform high performance numeric computations.
+
+Usually we do not see numpy being explicitly deployed. It actually makes up fundamental parts of other python libraries like Pandas.
+
+Numpy is effecient in two ways:
+###### Number storage
+- Small numbers only need a certain number of bits to be stored. However because python stores numbers as an integer object, it often takes a large fixed size which is 100x more than the number of bits needed to store that number. 
+- Imagine dealing with millions of rows of data like this, it is very inefficient.
+- Numpy uses the correct number of bits to store and process number.
+
+###### Array processing
+- Stores numbers in arrays which are stored next to each other in memory. Allows for CPU to run low-level efficient quick calculations.
+- Python lists can store numbers all over the memory. And they are stored in as integer objects so can not be directly processed by the CPU. 
