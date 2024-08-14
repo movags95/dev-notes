@@ -81,3 +81,6 @@ Numpy is effecient in two ways:
 ###### Array processing
 - Stores numbers in arrays which are stored next to each other in memory. Allows for CPU to run low-level efficient quick calculations.
 - Python lists can store numbers all over the memory. And they are stored in as integer objects so can not be directly processed by the CPU. 
+
+### [Numpy Arrays](https://www.freecodecamp.org/learn/data-analysis-with-python/data-analysis-with-python-course/numpy-arrays)
+
